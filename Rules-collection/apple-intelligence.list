@@ -1,19 +1,19 @@
 
 ### apple intelligence
-+.apple-relay.apple.com         
-+.apple-relay.fastly-edge.com   
-+.apple-relay.cloudflare.com    
-+.apple-relay.mask.apple-dns.net
-+.gateway.icloud.com            
-+.guzzoni.apple.com             
-+.cp4.cloudflare.com            
-+.apps.mzstatic.com             
-+.gspe1-ssl.ls.apple.com        
-+.mask-api.fe.apple-dns.net     
-+.mask-t.apple-dns.net          
-+.mask.apple-dns.net            
+DOMAIN-SUFFIX,apple-relay.apple.com         
+DOMAIN-SUFFIX,apple-relay.fastly-edge.com   
+DOMAIN-SUFFIX,apple-relay.cloudflare.com    
+DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net
+DOMAIN-SUFFIX,gateway.icloud.com            
+DOMAIN-SUFFIX,guzzoni.apple.com             
+DOMAIN-SUFFIX,cp4.cloudflare.com            
+DOMAIN-SUFFIX,apps.mzstatic.com             
+DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com        
+DOMAIN-SUFFIX,mask-api.fe.apple-dns.net     
+DOMAIN-SUFFIX,mask-t.apple-dns.net          
+DOMAIN-SUFFIX,mask.apple-dns.net            
 
 ### icloudprivaterelay
-+.mask-api.icloud.com
-+.mask-h2.icloud.com
-+.mask.icloud.com      
+DOMAIN-SUFFIX,mask-api.icloud.com
+DOMAIN-SUFFIX,mask-h2.icloud.com
+DOMAIN-SUFFIX,mask.icloud.com      
