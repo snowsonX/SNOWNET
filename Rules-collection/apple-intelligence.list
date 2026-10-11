@@ -2,29 +2,29 @@
 ### apple intelligence /siri
 
 DOMAIN-SUFFIX,smoot.apple.com
-DOMAIN,api-siri-prod.apple.com
-DOMAIN,seed.siri.apple.com
+DOMAIN-SUFFIX,api-siri-prod.apple.com
+DOMAIN-SUFFIX,seed.siri.apple.com
 
 # Apple Intelligence / Private Cloud Compute
-DOMAIN,apple-relay.apple.com
-DOMAIN,apple-relay.cloudflare.com
-DOMAIN,apple-relay.fastly-edge.com
-DOMAIN,cp4.cloudflare.com
+DOMAIN-SUFFIX,apple-relay.apple.com
+DOMAIN-SUFFIX,apple-relay.cloudflare.com
+DOMAIN-SUFFIX,apple-relay.fastly-edge.com
+DOMAIN-SUFFIX,cp4.cloudflare.com
 
 # Apple Intelligence relay / bootstrap
-DOMAIN,apple-relay.mask.apple-dns.net
-DOMAIN,mask-api.fe2.apple-dns.net
-DOMAIN,apple-relay.akamaized.net
-DOMAIN,apple-carry-relay.cloudflare.com
+DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net
+DOMAIN-SUFFIX,mask-api.fe2.apple-dns.net
+DOMAIN-SUFFIX,apple-relay.akamaized.net
+DOMAIN-SUFFIX,apple-carry-relay.cloudflare.com
 
 # Apple region determination
-DOMAIN,gspe1-ssl.ls.apple.com
+DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
 
 # icloud privaterelay
-DOMAIN,mask-api.icloud.com
-DOMAIN,gateway.icloud.com
-DOMAIN,probe.icloud.com
-DOMAIN,metrics.icloud.com
+DOMAIN-SUFFIX,mask-api.icloud.com
+DOMAIN-SUFFIX,gateway.icloud.com
+DOMAIN-SUFFIX,probe.icloud.com
+DOMAIN-SUFFIX,metrics.icloud.com
 
 DOMAIN-SUFFIX,mask-h2.icloud.com
 DOMAIN-SUFFIX,mask.icloud.com
