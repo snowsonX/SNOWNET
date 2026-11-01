@@ -1,0 +1,120 @@
+
+# ==========================================================
+# 1. Apple Intelligence & Siri 核心调度 (精准无误伤版)
+# ==========================================================
+DOMAIN-SUFFIX,smoot.apple.com
+DOMAIN-SUFFIX,api-siri-prod.apple.com
+DOMAIN-SUFFIX,siri.apple.com
+DOMAIN-SUFFIX,guzzoni.apple.com
+DOMAIN,guzzoni-apple-com.v.aaplimg.com
+DOMAIN-SUFFIX,swallow.apple.com
+DOMAIN,swallow-apple-com.v.aaplimg.com
+DOMAIN,sequoia.apple.com
+
+
+# Apple Intelligence / Private Cloud Compute (私有云计算中继)
+DOMAIN-SUFFIX,apple-relay.apple.com
+DOMAIN-SUFFIX,apple-relay.cloudflare.com
+DOMAIN-SUFFIX,apple-relay.fastly-edge.com
+DOMAIN-SUFFIX,cp4.cloudflare.com
+DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net
+DOMAIN-SUFFIX,mask-api.fe2.apple-dns.net
+DOMAIN-SUFFIX,apple-relay.akamaized.net
+DOMAIN-SUFFIX,apple-carry-relay.cloudflare.com
+
+# ==========================================================
+# 2. 锁区检测 (仅代理海外区域判定节点，绝不碰 -cn 国内定位)
+# ==========================================================
+DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
+
+# ==========================================================
+# 3. 美区 Apple Music / Podcasts / Books / App Store 曲库与目录解锁
+# (从 apple@cn 中精准剥离前置：只代理 API 与鉴权，保留音频/安装包直连)
+# ==========================================================
+# --- Apple Music 曲库目录、歌词与 DRM 播放鉴权 ---
+DOMAIN,amp-api.music.apple.com
+DOMAIN,amp-api-edge.music.apple.com
+DOMAIN,play.music.apple.com
+DOMAIN,music.apple.com
+DOMAIN,musicstatus.music.apple.com
+DOMAIN,speedysub.music.apple.com
+DOMAIN,js-cdn.music.apple.com
+DOMAIN,client-api.itunes.apple.com
+DOMAIN,cma.itunes.apple.com
+DOMAIN,se-edge.itunes.apple.com
+DOMAIN,se2.itunes.apple.com
+DOMAIN,sf-api-token-service.itunes.apple.com
+DOMAIN,sp.itunes.apple.com
+DOMAIN,sync.itunes.apple.com
+DOMAIN-SUFFIX,audio-ssl.itunes.apple.com
+
+# --- 美区播客 (Podcasts) 与 图书 (Books) 目录解锁 ---
+DOMAIN,amp-api.podcasts.apple.com
+DOMAIN,podcasts.apple.com
+DOMAIN,podcasts.itunes.apple.com
+DOMAIN,books.itunes.apple.com
+DOMAIN,bookkeeper.itunes.apple.com
+
+# --- 外区 App Store 搜索、网页预览与账号区域配置包 (Bag/Init) ---
+DOMAIN,bag.itunes.apple.com
+DOMAIN,bag-cdn.itunes-apple.com.akadns.net
+DOMAIN,init.itunes.apple.com
+DOMAIN,search.itunes.apple.com
+DOMAIN,lookup-api.apple.com
+DOMAIN,amp-api-search-edge.apps.apple.com
+DOMAIN,amp-api.apps.apple.com
+DOMAIN,amp-api-edge.apps.apple.com
+DOMAIN,api-edge.apps.apple.com
+DOMAIN,amp-api.media.apple.com
+DOMAIN,entitlements-edge.itunes.apple.com
+DOMAIN-SUFFIX,apps.apple.com
+DOMAIN-SUFFIX,appsto.re
+
+# ==========================================================
+# 4. Apple TV+ / Apple News / TestFlight / 专用代理 (源自 AppleProxy)
+# ==========================================================
+DOMAIN-SUFFIX,tv.apple.com
+DOMAIN,tv.applemusic.com
+DOMAIN,uts-api.itunes.apple.com
+DOMAIN,play-edge.itunes.apple.com
+DOMAIN,np-edge.itunes.apple.com
+DOMAIN,play.itunes.apple.com
+DOMAIN,hls-svod.itunes.apple.com
+DOMAIN-SUFFIX,hls-amt.itunes.apple.com
+DOMAIN-SUFFIX,hls.itunes.apple.com
+
+# --- Apple News ---
+DOMAIN-SUFFIX,apple.news
+DOMAIN,news-assets.apple.com
+DOMAIN,news-client.apple.com
+DOMAIN,news-edge.apple.com
+DOMAIN,news-events.apple.com
+
+# --- TestFlight 与开发者内测 ---
+DOMAIN,testflight.apple.com
+DOMAIN,tf-feedback.itunes.apple.com
+DOMAIN,sandbox.itunes.apple.com
+DOMAIN,inappcheck.itunes.apple.com
+DOMAIN,inappcheck-lb.itunes-apple.com.akadns.net
+
+# --- iCloud 专用代理 (Private Relay) 与海外 CloudKit ---
+DOMAIN-SUFFIX,mask-api.icloud.com
+DOMAIN-SUFFIX,gateway.icloud.com
+DOMAIN-SUFFIX,probe.icloud.com
+DOMAIN-SUFFIX,metrics.icloud.com
+DOMAIN-SUFFIX,mask-h2.icloud.com
+DOMAIN-SUFFIX,mask.icloud.com
+DOMAIN-SUFFIX,mask-api.fe.apple-dns.net
+DOMAIN-SUFFIX,mask-t.apple-dns.net
+DOMAIN-SUFFIX,mask.apple-dns.net
+DOMAIN-SUFFIX,apple-dns.net
+DOMAIN,cdn.apple-cloudkit.com
+DOMAIN-SUFFIX,blobstore.apple.com
+
+# ==========================================================
+# 5. 美区/全球区 iCloud 核心加速
+# (注：只会匹配 .com 国际服，完全不会触碰 .com.cn 云上贵州直连)
+# ==========================================================
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,apple-cloudkit.com
