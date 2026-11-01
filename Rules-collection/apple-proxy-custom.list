@@ -1,7 +1,7 @@
 
-# ==========================================================
-# 1. Apple Intelligence & Siri 核心调度 (精准无误伤版)
-# ==========================================================
+# =====================================
+# 1. Apple Intelligence & Siri 核心调度
+# =====================================
 DOMAIN-SUFFIX,smoot.apple.com
 DOMAIN-SUFFIX,api-siri-prod.apple.com
 DOMAIN-SUFFIX,siri.apple.com
@@ -22,15 +22,15 @@ DOMAIN-SUFFIX,mask-api.fe2.apple-dns.net
 DOMAIN-SUFFIX,apple-relay.akamaized.net
 DOMAIN-SUFFIX,apple-carry-relay.cloudflare.com
 
-# ==========================================================
+# ==================================================
 # 2. 锁区检测 (仅代理海外区域判定节点，绝不碰 -cn 国内定位)
-# ==========================================================
+# ==================================================
 DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
 
-# ==========================================================
+# ==============================================================
 # 3. 美区 Apple Music / Podcasts / Books / App Store 曲库与目录解锁
 # (从 apple@cn 中精准剥离前置：只代理 API 与鉴权，保留音频/安装包直连)
-# ==========================================================
+# ==============================================================
 # --- Apple Music 曲库目录、歌词与 DRM 播放鉴权 ---
 DOMAIN,amp-api.music.apple.com
 DOMAIN,amp-api-edge.music.apple.com
@@ -70,9 +70,9 @@ DOMAIN,entitlements-edge.itunes.apple.com
 DOMAIN,apps.apple.com
 DOMAIN-SUFFIX,appsto.re
 
-# ==========================================================
+# =================================================================
 # 4. Apple TV+ / Apple News / TestFlight / 专用代理 (源自 AppleProxy)
-# ==========================================================
+# =================================================================
 DOMAIN-SUFFIX,tv.apple.com
 DOMAIN,tv.applemusic.com
 DOMAIN,uts-api.itunes.apple.com
