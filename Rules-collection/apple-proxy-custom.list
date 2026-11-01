@@ -118,3 +118,10 @@ DOMAIN-SUFFIX,blobstore.apple.com
 DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,apple-cloudkit.com
+
+USER-AGENT,AppleNews*
+USER-AGENT,AppleTV*
+USER-AGENT,com.apple.news*
+USER-AGENT,com.apple.trustd*
+USER-AGENT,com.apple.tv*
+PROCESS-NAME,LookupViewService
