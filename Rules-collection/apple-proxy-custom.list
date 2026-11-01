@@ -67,7 +67,7 @@ DOMAIN,amp-api-edge.apps.apple.com
 DOMAIN,api-edge.apps.apple.com
 DOMAIN,amp-api.media.apple.com
 DOMAIN,entitlements-edge.itunes.apple.com
-DOMAIN-SUFFIX,apps.apple.com
+DOMAIN,apps.apple.com
 DOMAIN-SUFFIX,appsto.re
 
 # ==========================================================
