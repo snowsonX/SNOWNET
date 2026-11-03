@@ -18,6 +18,8 @@ DOMAIN-SUFFIX,api-flowercloud.com
 DOMAIN-SUFFIX,nxonearth.com
 DOMAIN-SUFFIX,zenithgrid.co
 DOMAIN-SUFFIX,api-huacloud.dev
+DOMAIN-SUFFIX,qpic.cn
+DOMAIN-SUFFIX,qlogo.cn
 PROCESS-NAME,Weixin.exe
 PROCESS-NAME,v2ray
 PROCESS-NAME,clash
